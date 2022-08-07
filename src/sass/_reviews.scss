@@ -1,0 +1,92 @@
+.reviews {
+    background: #F6F9FC;
+    padding-top: 65px;
+    padding-bottom: 38px;
+    h4 {
+        position: relative;
+        padding-left: 17px;
+        margin-top: 19px;
+        font-weight: 400;
+        font-size: 15px;
+        color: #93A0AB;
+        &::before {
+            position:absolute;
+            content: "";
+            width: 12px;
+            height: 16px;
+            background: url("../img/reviews/location.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            top: 0;
+            left: 5px;
+            transform: translate(-50%, 0);
+ 
+         } 
+    }
+    &__wrapper {
+        margin-top: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+    }
+    &__elem {
+        padding: 51px 41px 47px 47px;
+        width: 408px;
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+        backdrop-filter: blur(12px);
+        border-radius: 22px;
+    }
+    &__avatar {
+        width: 96px;
+        height: 96px;
+    }
+    &__name {
+        margin-top: 26px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #45515F;
+    }
+
+    &__make {
+        margin-top: 35px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        // gap: 10px;
+        
+        
+    }
+    &__text {
+        margin-top: 17px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #536473;
+    }
+    &__button {
+        background: url("../img/get/get-button.png");
+        margin-right: 10px;
+    }
+    &__all {
+        padding: 21px 30px;
+        width: 169px;
+        height: 62px;
+        border: 1px solid #C9D2DD;
+        border-radius: 8px;
+        font-weight: 500;
+        font-size: 16px;
+        text-transform: uppercase;
+        color: #45515F;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+    &__star {
+        margin-top: 27px;
+        margin-left: 3.41px;
+    }
+
+}

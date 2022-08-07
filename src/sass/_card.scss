@@ -1,0 +1,52 @@
+.card {
+    padding-top: 55px;
+    padding-bottom: 45px;
+    &__subtitle {
+        margin-top: 14px;
+        font-weight: 300;
+        font-size: 13px;
+        color: #45515F;
+        text-align: center;
+    };
+    &__wrapper {
+        padding-top: 44px;
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        &-elem {
+            position: relative;
+            display: block;
+            text-align: center;
+            padding-top: 29px;
+            // justify-content: center;
+            // align-items:center;
+            width: 140px;
+            height: 133px;
+            background: #F6F9FC;
+            backdrop-filter: blur(12px);
+            border-radius: 22px;
+            &::before {
+                position:absolute;
+                content: "";
+                width: 17.14px;
+                height: 10px;
+                background: url("../img/card/arrow.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                position: absolute;
+                bottom: 23px;
+                left: 50%;
+                transform: translate(-50%, 0);
+     
+             } 
+        }
+    }
+    &__button {
+        
+        background: url("../img/get/get-button.png");
+        display: block;
+        margin:0 auto;
+        margin-top: 31px;
+    }
+}

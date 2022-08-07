@@ -1,8 +1,9 @@
 .hot {
     position: relative;
-    background: linear-gradient(180deg, #FFC83E 0%, #FF9F47 100%);
+    // background: linear-gradient(180deg, #FFC83E 0%, #FF9F47 100%);
     padding-top: 36px;
     padding-bottom: 68px;
+    z-index: 1;
     &__bg {
         position: absolute;
         width: 100%;
@@ -106,13 +107,15 @@
         color: #FFFFFF;
     }
     &__money {
-        margin-left: 372px;
+        position: relative;
+        // margin-left: 372px;
         width: 428px;
         height: 582px;
         padding: 29px 19px 36px 28px;
         background: rgba(255, 255, 255, 0.9);
         box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
         border-radius: 15px;
+        z-index: 2;
     }
     &__item {
         input {

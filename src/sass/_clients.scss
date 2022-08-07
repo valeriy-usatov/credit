@@ -1,0 +1,113 @@
+.clients {
+    padding-top: 55px;
+    padding-bottom: 59px;
+    background: url("../img/clients/clients-bg.png") center (center/cover) no-repeat;
+    h4 {
+        position: relative;
+        font-weight: 400;
+        font-size: 15px;
+        color: #93A0AB;
+        margin-top: 8px;
+        margin-left: 20px;
+        &::before {
+            position:absolute;
+            content: "";
+            width: 12px;
+            height: 16px;
+            background: url("../img/reviews/location.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size:cover;
+            top: 50%;
+            left: -20px;
+            transform: translate(0, -50%);
+ 
+         } 
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 45px;
+        color: #FFFFFF;
+    }
+    &__wrapper {
+        margin-top: 37px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    &__elem {
+        position: relative;
+        padding: 26px 36px 25px 76px;
+        width: 408px;
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+        backdrop-filter: blur(12px);
+        border-radius: 22px;
+        &:nth-child(1) {
+
+            &::before {
+                position:absolute;
+                content: "";
+                width: 21px;
+                height: 21px;
+                background: url("../img/clients/cancel.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                left: 31px;
+                top: 50%;
+                transform: translate(0, -50%);
+     
+             } 
+        }
+        &:nth-child(2) {
+            padding-left: 91px;
+            &::before {
+                position:absolute;
+                content: "";
+                width: 21px;
+                height: 21px;
+                background: url("../img/clients/plus.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                left: 36px;
+                top: 50%;
+                transform: translate(0, -50%);
+     
+             } 
+        }
+        &:nth-child(3) {
+            padding-left: 106px;
+            &::before {
+                position:absolute;
+                content: "";
+                width: 29px;
+                height: 29px;
+                background: url("../img/clients/deposit.svg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+                left: 42px;
+                top: 50%;
+                transform: translate(0, -50%);
+     
+             } 
+        }
+    }
+    &__name {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #45515F;
+    }
+    &__text {
+        margin-top: 6px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+        color: #536473;
+    }
+}

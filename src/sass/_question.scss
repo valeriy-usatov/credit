@@ -13,6 +13,11 @@
         backdrop-filter: blur(12px);
         border-radius: 12px;
         margin-bottom: 4px;
+        &.active {
+           
+            background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
+            color: #FFFFFF;
+        }
     }
     
     &__up, &__answer {
@@ -43,7 +48,28 @@
         margin-top: 17px;
         &.active {
             display: flex;
+            // background: linear-gradient(268.87deg, #FFC83E -5.09%, #FF7347 51.96%);
+            color: #FFFFFF;
         }
        
     }
 }
+
+.active-accardion {
+   
+    .question__question {
+        border-radius: 12px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        .question__title {
+            color: #FFFFFF;  
+        }
+        .question__down {
+            display: none;
+        }
+        .question__up {
+            display: flex;
+        }
+    }
+}    

@@ -6,27 +6,29 @@
     z-index: 1;
     &__bg {
         position: absolute;
-        width: 100%;
-        height: 100%;
+        // width: 100%;
+        // height: 100%;
         top:0 ;
         left: 50%;
         transform:translateX(-50%);
         z-index: 0;
     }
+    &__img {
+        font-size: 33px;
+         margin-right: 216px;
+         width: 164px;
+         height: 26px;
+         img {
+            // width: 100%;
+            // height: 100%;
+        }
+    }
     &__up {
         display: flex;
         justify-content: space-between;
+        // gap: 216px;
         align-items: center;
-        &__img {
-            font-size: 33px;
-             margin-right: 216px;
-             width: 164px;
-             height: 26px;
-             img {
-                width: 100%;
-                height: 100%;
-            }
-        }
+        
         ul {
             display: flex;
             justify-content: space-between;
@@ -40,6 +42,7 @@
                 color: #FFFFFF;
                 a {
                     text-decoration: none;
+                    color: #FFFFFF;
                 }
             } 
         }
@@ -58,7 +61,7 @@
     }
     &__offers {
         width: 477px;
-        margin-top: 18px;
+        margin-top: -4px;
     }
     &__title {
         margin-top: 20px;
@@ -107,10 +110,10 @@
         color: #FFFFFF;
     }
     &__money {
-        position: relative;
+        // position: relative;
         // margin-left: 372px;
         width: 428px;
-        height: 582px;
+        min-height: 582px;
         padding: 29px 19px 36px 28px;
         background: rgba(255, 255, 255, 0.9);
         box-shadow: 0px 4px 44px rgba(0, 0, 0, 0.05);
@@ -124,6 +127,10 @@
             -webkit-appearance: none;
             background: #ECECEC;
             border-radius: 8px;
+            margin-top: 40px;
+            &:nth-child(1) {
+                margin-top: 46px;
+                }
             &::-webkit-slider-thumb {
                 -webkit-appearance: none;
                 background: linear-gradient(81.55deg, #FFC83E 33.93%, #FF9F47 73.78%);
@@ -176,6 +183,7 @@
             font-size: 14px;
             line-height: 17px;
             color: #45515F;
+            
             &:nth-child(3), &:nth-child(4)  {
                 margin-top: 21px;
                 
@@ -185,7 +193,7 @@
                 font-size: 18px;
                 line-height: 21px;
                 color: #F28925;
-                margin-top: 3px;
+                margin-top: 5px;
             }
 
            
@@ -195,7 +203,7 @@
             margin-top: 63px;
             display: flex;
             flex-wrap: wrap;
-            
+            padding-left: 39px;
             justify-content: space-between;
         }
         

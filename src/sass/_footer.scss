@@ -1,0 +1,49 @@
+.footer {
+    padding-top: 50px;
+    padding-bottom: 41px;
+    position: relative;
+    z-index:11;
+    &__bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:0 ;
+        left: 50%;
+        transform:translateX(-50%);
+        z-index: -1;
+    }
+    
+    &__up {
+        display: flex;
+        align-items: center;
+        gap: 99px;
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style-type: none; 
+            gap: 79px;
+            li {
+                font-weight: 500;
+                font-size: 18px;
+                a {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                }
+            } 
+        }
+    }
+    &__img {
+        
+        width: 164px;
+        height: 26px;
+        
+   }
+    
+
+
+
+
+    
+
+}

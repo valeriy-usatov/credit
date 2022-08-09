@@ -18,6 +18,7 @@
         border-radius: 22px;
     }
     &__subtitle {
+        min-height: 56px;
         font-weight: 600;
         font-size: 24px;
         line-height: 28px;
@@ -25,7 +26,7 @@
 
     }
     &__description {
-        margin-top: 45px;
+        margin-top: 31px;
         font-weight: 300;
         font-size: 16px;
         line-height: 19px;

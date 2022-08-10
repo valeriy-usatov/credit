@@ -9,13 +9,19 @@
         padding-top: 45px;
     }
     &__wrapper {
-        margin-top: 72px;
+        margin-top: 63px;
         display: flex;
         justify-content: space-around;
-        align-items:center;
+        // align-items:center;
+        &-elem {
+            img {
+                height: 100%;
+                width: 100%;
+            }
+        }
     }
     &__line {
-        margin-top: 43px;
+        margin-top: 20px;
         // background: #FFFFFF;
         // border-radius: 8px;
         // height: 7px;
@@ -23,10 +29,10 @@
     &__texts {
         padding-left:50px;
         padding-right: 40px;
-        margin-top: 34px;
+        margin-top: 15px;
         display: grid;
         grid-template-columns: 196px 150px 244px 258px;
-        gap: 132px;
+        gap: 135px;
         // justify-content: space-between;
         align-items:center;
         &-text {

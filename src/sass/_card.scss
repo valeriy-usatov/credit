@@ -9,10 +9,13 @@
         text-align: center;
     };
     &__wrapper {
+        text-align: center;
         padding-top: 44px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items:center;
+        gap: 35px;
+
         &-elem {
             position: relative;
             display: block;
@@ -20,6 +23,7 @@
             padding-top: 29px;
             // justify-content: center;
             // align-items:center;
+            
             width: 140px;
             height: 133px;
             background: #F6F9FC;

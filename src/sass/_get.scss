@@ -9,30 +9,24 @@
         padding-top: 45px;
     }
     &__wrapper {
-        margin-top: 63px;
+        margin-top: 72px;
         display: flex;
         justify-content: space-around;
-        // align-items:center;
-        &-elem {
-            img {
-                height: 100%;
-                width: 100%;
-            }
-        }
+        align-items:center;
     }
     &__line {
-        margin-top: 20px;
+        margin-top: 43px;
         // background: #FFFFFF;
         // border-radius: 8px;
         // height: 7px;
     }
     &__texts {
-        padding-left:50px;
-        padding-right: 40px;
-        margin-top: 15px;
+        // padding-left:50px;
+        // padding-right: 40px;
+        margin-top: 34px;
         display: grid;
         grid-template-columns: 196px 150px 244px 258px;
-        gap: 135px;
+        gap: 132px;
         // justify-content: space-between;
         align-items:center;
         &-text {

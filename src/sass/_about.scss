@@ -9,23 +9,16 @@
         
     }
     &__elem {
-        padding:44px 45px 44px 47px;
+        padding:58px 46px 44px;
         width: 625px;
         background: rgba(255, 255, 255, 0.95);
         border: 1px solid #F8EBEB;
         box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
         backdrop-filter: blur(12px);
         border-radius: 22px;
-        &:nth-child(2) {
-            padding-top: 58px;
-            .about__description {
-                margin-top: 45px;
-            }
-        }
     }
     &__subtitle {
-        // min-height: 56px;
-        width: 400px;
+        min-height: 56px;
         font-weight: 600;
         font-size: 24px;
         line-height: 28px;
@@ -38,6 +31,5 @@
         font-size: 16px;
         line-height: 19px;
         color: #536473;
-        
     }
 }

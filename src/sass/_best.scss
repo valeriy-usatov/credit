@@ -69,8 +69,8 @@
         }
     }
     &__elem {
-        width: 408px;
-        min-height: 172px;
+        max-width: 408px;
+        // min-height: 172px;
         position: relative;
         padding:36px 60px 35px 68px;
         background: rgba(255, 255, 255, 0.95);

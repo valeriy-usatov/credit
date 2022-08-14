@@ -60,6 +60,9 @@
         width: 242px;
         height: 50px;
         font-size: 13px;
+        &-768 {
+            display: none;
+        }
     }
     &__wrapper {
         padding-top: 64px;

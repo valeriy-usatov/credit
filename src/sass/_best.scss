@@ -1,13 +1,13 @@
 .best {
     padding-bottom: 51px;
+    padding-top: 50px;
     background: #F6F9FC;
     &__title {
-        margin-top: 50px;
+        // margin-top: 50px;
 
     }
     &__wrapper {
         padding-top: 36px;
-        
         display: flex;
         justify-content: space-between;
         align-items:center;
@@ -69,7 +69,7 @@
         }
     }
     &__elem {
-        max-width: 408px;
+        width: 408px;
         // min-height: 172px;
         position: relative;
         padding:36px 60px 35px 68px;

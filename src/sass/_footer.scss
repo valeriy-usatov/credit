@@ -38,7 +38,6 @@
                     font-weight: 400;
                     font-size: 13px;
                     color: #FFFFFF;
-
                     &::before {
                         position:absolute;
                         content: "";
@@ -81,7 +80,6 @@
         }
     }
     &__img {
-        width: 164px;
         height: 26px;
         
     }
@@ -114,7 +112,7 @@
         color: #FFFFFF;
     }
     &__items {
-        margin-top: 28px;
+        margin-top: 41px;
         display: flex;
         justify-content: space-between;
         align-items: center;

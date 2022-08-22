@@ -817,12 +817,16 @@
     
     }
     .card {
-        padding-bottom: 46px;
+        padding:35px 10px 42px;
         &__wrapper {
             padding-top: 44px;
+            flex-wrap:wrap;
+            justify-content: center;
+            column-gap:25.71px;
+            row-gap: 18.8px;
             &-elem {
-                width: 128px;
-                height: 121.6px;
+                width: 102.86px;
+                height: 97.71px;
                 &::before {
                     width: 15px;
                     height: 8px;
@@ -830,7 +834,14 @@
             }
         }
         &__button {
-            margin-top: 43px;
+            margin-top: 38.7px;
+        }
+        &__subtitle {
+            margin-top: 23px;
+            line-height: 19px;
+        }
+        &__title {
+            line-height: 33px;
         }
     }
     .reviews {
@@ -1262,7 +1273,7 @@
         }
 
     html,body{
-        overflow-x: hidden;
+        // overflow-x: hidden;
         }
 
     .hot {
@@ -1395,84 +1406,9 @@
         
     }
     .get {
-        padding: 0 10px 51px;
-        &__border {
-            display: none;
-        }
-        &__title {
-            padding-top: 0px;
-        } 
-        &__wrapper {
-            margin-top: 49px;
-            flex-direction: column;
-            height:  542px;
-            width: 68px;
-            align-items:start;
-        }
-        &__line {
-            margin-top: 49px;
-            height:  542px;
-            width: 7px;
-            transform: rotate(-90deg);
-            margin-left: 27px;
-            &-1 {
-                transform: rotate(-90deg);
-                height:  542px;
-                width: 7px;
-                &::before {
-                    z-index:10;
-                    left: -12px;
-                    top: 448px;
-                    transform: rotate(180deg);
-                }
-                &::after {
-                    z-index:10;
-                    left: -12px;
-                    top: 320px;
-                    transform: rotate(180deg);
-                }   
-            }
-            &-2 {
-                height:  100%;
-                width: 7px;
-                top:-542px;
-                background:transparent;  //чтобы была видна первая линия
-                transform: rotate(-90deg);
-                &::before {
-                    left: -12px;
-                    top: 185px;
-                    transform: rotate(180deg);
-                }
-                &::after {
-                    left: -12px;
-                    top: 50px;
-                    transform: rotate(180deg);
-                }   
-    
-            }
-            &-3 {
-                // height:  542px;
-                width: 7px;
-                top:-850px;
-                left: 234px;
-                transform: rotate(270deg);
-                height:  74px;
-            }
-        }
         &__texts {
             padding-left:20px;
-            padding-right: 10px;
-            margin-top: 84px;
-            grid-template-rows: 72px 72px 72px 72px;
-            grid-template-columns: 151px;
-            gap: 64px;
-            align-self:flex-start;
-            // transform: rotate(90deg);
-        }
-        &__button {
-            margin:0 auto;
-            margin-top: 42px;
-            
+            padding-right: 10px;  
         }
         &__vertical {
             display: flex;

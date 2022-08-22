@@ -600,7 +600,7 @@
         }
 
     html,body{
-        // overflow-x: hidden;
+        overflow-x: hidden;
         }
 
     .hot {
@@ -819,18 +819,21 @@
     .card {
         padding:35px 10px 42px;
         &__wrapper {
-            padding-top: 44px;
+            padding-top: 30px;
             flex-wrap:wrap;
             justify-content: center;
             column-gap:25.71px;
             row-gap: 18.8px;
             &-elem {
+                padding-top: 21px;
                 width: 102.86px;
                 height: 97.71px;
                 &::before {
-                    width: 15px;
-                    height: 8px;
-                 } 
+                    width: 12.05px;
+                    height: 6.43px;
+                    bottom: 17.36px;
+                } 
+                
             }
         }
         &__button {
@@ -845,31 +848,35 @@
         }
     }
     .reviews {
-        padding-top: 66px;
-        padding-bottom: 0px;
+        padding: 46px 10px 30px;
+        &__title {
+            line-height: 36px;
+            padding: 0 auto;
+            // width: 320px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
         h4 {
             padding-left: 18px;
             margin-top: 19px;
+
         }
         &__wrapper {
             margin-top: 39px;
         }
         &__elem {
-            padding: 51px 27px 47px 28px;
-            width: 377px;
-            min-height: 486px;
-            &:nth-child(3) {
+            padding: 31px 16px 41px 23px;
+            width: 360px;
+            min-height: 460px;
+            &:nth-child(3),&:nth-child(2) {
                 display: none;
             }
-            &:nth-child(2) {
-                padding:51px 19px 70px 35px;
-                .reviews__star {
-                    margin-top: 23px;
-                }
-            }   
         }
          &__make {
-            margin-top: 39px;
+            margin-top: 30px;
+            flex-direction: column;
+            gap: 13px;
+            align-items:center;
             
         }
         
@@ -881,28 +888,51 @@
     
     }
     .clients {
-        margin-top: 54px;
-        padding: 55px auto 59px auto;
+        margin-top: 0;
+        padding: 32px 10px 32px;
         &__wrapper {
-            margin-top: 37px;
+            margin-top: 29px;
+            .clients {
+        margin-top: 0;
+        padding: 32px 10px 32px;
+        &__wrapper {
+            margin-top: 29px;
+            width: 360px;
         }
         &__elem {
-            padding: 26px 76px 25px 82px;
-            width: 377px;
+            padding: 26px 54px 25px 87px;
+            // width: 360px;
             &:nth-child(1) {
                 &::before {
                     left: 37px;
                  } 
             }
-            &:nth-child(2) {
-                padding-left: 103px;
-                &::before {
-                    left: 50px;
-                 } 
-            }
-            &:nth-child(3) {
+            &:nth-child(2),&:nth-child(3) {
                 display: none;
             }
+        }
+        &__title {
+            padding-left: 35px;
+            text-align: left;
+        }
+        
+    }
+        }
+        &__elem {
+            padding: 26px 54px 25px 87px;
+            // width: 360px;
+            &:nth-child(1) {
+                &::before {
+                    left: 37px;
+                 } 
+            }
+            &:nth-child(2),&:nth-child(3) {
+                display: none;
+            }
+        }
+        &__title {
+            padding-left: 35px;
+            text-align: left;
         }
         
     }
@@ -1417,81 +1447,63 @@
     
     }
     .card {
-        padding-bottom: 46px;
+        padding:35px 10px 42px;
         &__wrapper {
-            padding-top: 44px;
+            padding-top: 30px;
+            flex-wrap:wrap;
+            justify-content: center;
+            column-gap:25.71px;
+            row-gap: 18.8px;
             &-elem {
-                width: 128px;
-                height: 121.6px;
+                padding-top: 21px;
+                width: 102.86px;
+                height: 97.71px;
                 &::before {
-                    width: 15px;
-                    height: 8px;
-                 } 
+                    width: 12.05px;
+                    height: 6.43px;
+                    bottom: 17.36px;
+                } 
+                
             }
         }
         &__button {
-            margin-top: 43px;
+            margin-top: 38.7px;
+        }
+        &__subtitle {
+            margin-top: 23px;
+            line-height: 19px;
+        }
+        &__title {
+            line-height: 33px;
         }
     }
     .reviews {
-        padding-top: 66px;
-        padding-bottom: 0px;
-        h4 {
-            padding-left: 18px;
-            margin-top: 19px;
+        padding: 46px 10px 30px;
+        &__title {
+            font-size: 28px; 
         }
-        &__wrapper {
-            margin-top: 39px;
-        }
-        &__elem {
-            padding: 51px 27px 47px 28px;
-            width: 377px;
-            min-height: 486px;
-            &:nth-child(3) {
-                display: none;
-            }
-            &:nth-child(2) {
-                padding:51px 19px 70px 35px;
-                .reviews__star {
-                    margin-top: 23px;
-                }
-            }   
-        }
-         &__make {
-            margin-top: 39px;
-            
-        }
-        
-        &__star {
-            margin-top: 27px;
-            margin-left: 3.41px;
-            
-        }
-    
     }
     .clients {
-        margin-top: 54px;
-        padding: 55px auto 59px auto;
+        margin-top: 0;
+        padding: 32px 10px 32px;
         &__wrapper {
-            margin-top: 37px;
+            margin-top: 29px;
         }
         &__elem {
-            padding: 26px 76px 25px 82px;
-            width: 377px;
+            padding: 26px 54px 25px 87px;
+            width: 360px;
             &:nth-child(1) {
                 &::before {
                     left: 37px;
                  } 
             }
-            &:nth-child(2) {
-                padding-left: 103px;
-                &::before {
-                    left: 50px;
-                 } 
-            }
-            &:nth-child(3) {
+            &:nth-child(2),&:nth-child(3) {
                 display: none;
             }
+        }
+        &__title {
+            padding-left: 0px;
+            text-align: center;
         }
         
     }

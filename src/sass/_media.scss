@@ -789,10 +789,10 @@
             &-3 {
                 // height:  542px;
                 width: 7px;
-                top:-850px;
-                left: 234px;
+                top:-845px;
+                left: 239px;
                 transform: rotate(270deg);
-                height:  74px;
+                height:  62px;
             }
         }
         &__texts {
@@ -954,10 +954,12 @@
         }
     }
     .question {
-        padding-top: 57px;
-        padding-bottom: 67px;
+        padding:33px 10px 35px;
+        &__list {
+            margin-top: 29px;
+        }
         &__item {
-            padding: 21px 31px 28px 33px;
+            padding: 25px 31px 26px 18px;
             min-height: 70px;
             background: rgba(255, 255, 255, 0.95);
             box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
@@ -991,6 +993,9 @@
             }
         }
         &__answer {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
             margin-top: 17px;
             &.active {
                 display: flex;
@@ -999,25 +1004,27 @@
             }
            
         }
+        &__title {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+        }
     }
     .money {
-        padding-top: 61px;
-        padding-bottom: 62px;
-        // position: relative;
-        z-index:0;
-        
+        padding-top: 38px;
+        padding-bottom: 0px;
         &__title {
-            text-align: center;
+            line-height: 40px;
         }
         &__subtitle {
-            margin-top: 26px;
-            text-align: center;
-    
+            margin-top: 28px;
+            font-size: 22px;
+            line-height: 29px
         }
         &__button {
             display: block;
             margin:0 auto;
-            margin-top: 26px;
+            margin-top: 28px;
             
             
         }
@@ -1026,7 +1033,9 @@
         }
         &__img {
             position: relative;
-            margin-top: 32px;
+            margin-top: 0px;
+            display: block;
+            margin: 0 auto;
             img {
                 display: block;
                 margin: 0 auto;
@@ -1281,13 +1290,14 @@
     .container {
         width: 100%;
         margin: 0 auto;
+        
     }
         .header,.emply,.hot__button {
         display: none;
         }
 
     html,body{
-        // overflow-x: hidden;
+        overflow-x: hidden;
         }
 
     .hot {
@@ -1517,10 +1527,12 @@
         }
     }
     .question {
-        padding-top: 57px;
-        padding-bottom: 67px;
+        padding:33px 10px 35px;
+        &__list {
+            margin-top: 29px;
+        }
         &__item {
-            padding: 21px 31px 28px 33px;
+            padding: 25px 31px 26px 18px;
             min-height: 70px;
             background: rgba(255, 255, 255, 0.95);
             box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
@@ -1554,6 +1566,9 @@
             }
         }
         &__answer {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 17px;
             margin-top: 17px;
             &.active {
                 display: flex;
@@ -1562,37 +1577,40 @@
             }
            
         }
+        &__title {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            &-up {
+                font-size: 32px;
+            }
+        }
     }
     .money {
-        padding-top: 61px;
-        padding-bottom: 62px;
-        // position: relative;
-        z-index:0;
-        
+        padding-top: 38px;
+        padding-bottom: 0px;
         &__title {
-            text-align: center;
+            line-height: 40px;
         }
         &__subtitle {
-            margin-top: 26px;
-            text-align: center;
-    
+            margin-top: 28px;
+            font-size: 22px;
+            line-height: 29px
         }
         &__button {
             display: block;
             margin:0 auto;
-            margin-top: 26px;
-            
-            
+            margin-top: 28px;  
         }
         &__media992 {
             display: none;
         }
         &__img {
-            position: relative;
-            margin-top: 32px;
             img {
                 display: block;
-                margin: 0 auto;
+                width: 90%;
+                height:90%;
+               
             }
             
         }

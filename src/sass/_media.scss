@@ -249,7 +249,7 @@
         }
         &__elem {
             padding: 44px 52px 47px 48px;
-            min-width: 768px;
+            width: 768px;
             &:nth-child(2) {
                 padding: 58px 52px 60px 47px;
                 .about__description {
@@ -592,7 +592,7 @@
 
 @media (max-width: 768px) {
     .container {
-        width: 360px;
+        max-width: 360px;
         margin: 0 auto;
     }
         .header,.emply,.hot__button {
@@ -892,12 +892,7 @@
         padding: 32px 10px 32px;
         &__wrapper {
             margin-top: 29px;
-            .clients {
-        margin-top: 0;
-        padding: 32px 10px 32px;
-        &__wrapper {
-            margin-top: 29px;
-            width: 360px;
+            // width: 360px;
         }
         &__elem {
             padding: 26px 54px 25px 87px;
@@ -915,12 +910,9 @@
             padding-left: 35px;
             text-align: left;
         }
-        
-    }
-        }
         &__elem {
             padding: 26px 54px 25px 87px;
-            // width: 360px;
+            width: 360px;
             &:nth-child(1) {
                 &::before {
                     left: 37px;
@@ -937,36 +929,28 @@
         
     }
     .about {
-        background: rgba(255, 255, 255, 0.95);
-        padding-bottom: 48px;
-        padding-top: 56px;
+        padding:41px 10px 26px;
         &__wrapper {
-            margin-top: 43px;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            justify-content: center;
-            align-items:center;
-            
+            // width: 360px;
+            margin-top: 30px;
         }
         &__elem {
-            padding: 44px 52px 47px 48px;
-            min-width: 768px;
+            padding: 34px 27px 41px 28px;
+            width: 360px;
             &:nth-child(2) {
-                padding: 58px 52px 60px 47px;
+                padding: 32px 27px 41px 27px;
                 .about__description {
-                    margin-top: 45px;
+                    margin-top: 21px;
+                    width: 306px;
                 }
             }
         }
         &__subtitle {
-            width: 400px;
-            
-    
+            width: 306px;
         }
         &__description {
-            margin-top: 31px;
-            
+            margin-top: 26px;
+            width: 305px;  
         }
     }
     .question {
@@ -1293,7 +1277,7 @@
 }
 
 // от 320 до 360
-@media (max-width: 360px) {     
+@media (max-width: 359px) {     
     .container {
         width: 100%;
         margin: 0 auto;
@@ -1508,36 +1492,28 @@
         
     }
     .about {
-        background: rgba(255, 255, 255, 0.95);
-        padding-bottom: 48px;
-        padding-top: 56px;
+        padding:41px 10px 26px;
         &__wrapper {
-            margin-top: 43px;
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            justify-content: center;
-            align-items:center;
-            
+            // width: 360px;
+            margin-top: 30px;
         }
         &__elem {
-            padding: 44px 52px 47px 48px;
-            min-width: 768px;
+            padding: 34px 27px 41px 28px;
+            width: 320px;
             &:nth-child(2) {
-                padding: 58px 52px 60px 47px;
+                padding: 32px 27px 41px 27px;
                 .about__description {
-                    margin-top: 45px;
+                    margin-top: 21px;
+                    width: 100%;
                 }
             }
         }
         &__subtitle {
-            width: 400px;
-            
-    
+            width: 100%;
         }
         &__description {
-            margin-top: 31px;
-            
+            margin-top: 26px;
+            width: 100%;  
         }
     }
     .question {
